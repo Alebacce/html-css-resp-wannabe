@@ -82,8 +82,16 @@ img {
 /*MOBILE AND TABLET*/
 @media screen and (max-width: 768px) {
   /*COMMON*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row {
     width: 100%;
+    margin: 0;
+    padding: 5%;
   }
 
   img {
@@ -103,7 +111,6 @@ img {
     float: none;
   }
 
-  .row,
   #lezioni .row .left,
   #lezioni .row .right,
   #steps .row .left,
